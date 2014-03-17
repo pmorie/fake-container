@@ -1,0 +1,4 @@
+#!/bin/bash -x
+
+rm -f fake
+go build -o fake -ldflags -d main.go
